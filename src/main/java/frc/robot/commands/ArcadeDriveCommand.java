@@ -14,10 +14,7 @@ public class ArcadeDriveCommand extends CommandBase {
     Joystick m_rotateStick;
     AHRS navx;
 
-    public ArcadeDriveCommand(
-            Joystick MoveStick,
-            Joystick RotateStick,
-            AHRS NavX) {
+    public ArcadeDriveCommand(Joystick MoveStick,Joystick RotateStick,AHRS NavX) {
         m_moveStick = MoveStick;
         m_rotateStick = RotateStick;
         navx = NavX;
